@@ -1,0 +1,3 @@
+SELECT 'Answer' AS "name", 'table' AS "type", COUNT(*) AS "rows" FROM "Answer"
+UNION SELECT 'Question' AS "name", 'table' AS "type", COUNT(*) AS "rows" FROM "Question"
+UNION SELECT 'Survey' AS "name", 'table' AS "type", COUNT(*) AS "rows" FROM "Survey"
